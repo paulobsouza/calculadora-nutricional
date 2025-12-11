@@ -1,4 +1,5 @@
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const BASE_URL = `${API_URL}/api`;
 const USDA_API_KEY = import.meta.env.VITE_USDA_API_KEY || "";
 
 class ApiService {
