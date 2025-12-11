@@ -1,0 +1,21 @@
+.form-gasto {
+  margin-bottom: 20px;
+}
+
+.form-gasto .form-group {
+  margin-bottom: 15px;
+}
+
+.form-gasto .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-gasto .form-group input,
+.form-gasto .form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  box-sizing: border-box;
+}

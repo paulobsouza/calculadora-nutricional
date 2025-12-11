@@ -1,0 +1,39 @@
+.lista-alimentos-container {
+  margin-top: 20px;
+}
+
+.lista-alimentos-container h3 {
+  margin-bottom: 10px;
+}
+
+.lista-alimentos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-alimentos li {
+  background: #f9f9f9;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.lista-alimentos li:last-child {
+  border-bottom: none;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+}
+
+.btn-delete:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,12 @@
+.card {
+  background: var(--card-bg);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}

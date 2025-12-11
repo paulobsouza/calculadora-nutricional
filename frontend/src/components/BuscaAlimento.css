@@ -1,0 +1,38 @@
+.busca-container {
+  margin-bottom: 15px;
+}
+
+.busca-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.busca-wrapper {
+  display: flex;
+}
+
+.busca-wrapper input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+}
+
+.btn-busca {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  margin-left: 10px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.btn-busca:hover {
+  opacity: 0.9;
+}
+
+.btn-busca:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

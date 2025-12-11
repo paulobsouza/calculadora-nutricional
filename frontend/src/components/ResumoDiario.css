@@ -1,0 +1,43 @@
+.resumo-diario-container {
+  margin-top: 20px;
+}
+
+.resultado-inicial {
+  margin-bottom: 15px;
+}
+
+.resultado-inicial h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.resultado-final {
+  padding: 15px;
+  background: #e9ecef;
+  border-radius: var(--border-radius);
+}
+
+.resultado-final h4 {
+  margin-top: 0;
+}
+
+.resumo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.resumo-item p {
+  margin: 0;
+}
+
+.positivo {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.negativo {
+  color: #dc3545;
+  font-weight: bold;
+}
