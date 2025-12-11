@@ -3,11 +3,11 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Copiar package.json primeiro para cache de dependências
+# Copiar package.json e package-lock.json para cache de dependências
 COPY package*.json ./
 
 # Instalar dependências
-RUN npm ci --only=production
+RUN npm install --omit=dev
 
 # Copiar código fonte
 COPY . .
